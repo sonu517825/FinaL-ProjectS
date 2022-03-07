@@ -6,9 +6,7 @@
                                         w
 To move the snacke press :         A          S
                                         z
-
 For Exit Press : X
-
 
 # Dovelopment Stages #
 
@@ -28,11 +26,20 @@ Stage 13 : Display the Movement in console
 Stage 14 : Set game score validation
 Stage 15 : Final Test
 
-
 Warning : We could have to face some error if you try to test this code in different 
-          framework. This error may be regarding some 
-
+          framework. This error may be regarding some module or some function not define.
+          
+Advice : Please Run this code in relevent framework.
+         It could be any version of " TURBO " framework
+         
+        
+         
+         
+         
+         
+         
                                                                                                                                   Developed By
                                                                                                                                   ER. SONU VERMA
+                                                                                                                                  
 
 

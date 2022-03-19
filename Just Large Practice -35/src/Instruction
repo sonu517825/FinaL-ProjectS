@@ -30,16 +30,27 @@ Total Handlar file : 6
 
 # use error handler with try catch function to handle the internal and external errors
 
-   
-                        
+
+                            #  Status Codes 
+
+200   ok
+
+201   New Create
+
+400   bad request
+
+401   unauthorize
+
+403   forbidden
+
+404   not found
+
+500   enternal server error ( 90 % chance syntax error )  
+
                                                                 List of APIs
-                                                                                                          
-                                                              
-                                                              
+                                                                                                                                                                        
                                                               		Welcome in functionUp Tech
-                                                                  
-                                                                  
-                                                                                                                       
+                                                         
                                                                                                                                    
                                                                   
 			Source : General Route

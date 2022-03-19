@@ -1,0 +1,299 @@
+# KEY POINTS #
+   THIS IS BUILD IN " Nodejs " Framework      
+   Developed by ***** ER. SONU VERMA *****
+         
+Request : If anyone have any suggestion please contact me.
+
+       *****Contacts*****
+Mob : 6387713230
+Email : sonu9506517825@gmail.com
+Linked : https://www.linkedin.com/in/sonu-verma-64898520a/ 
+         
+         
+         
+                                                                                                                                  Developed By
+                                                                                                                                  ER. SONU VERMA
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+                                                              List of APIs
+                                                                                                                   
+                                                              
+                                                              
+                                                              		Welcome in functionUp Tech
+                                                                  
+                                                                  
+                                                                                                                       
+                                                                                                                                   
+                                                                  
+			Source : General Route
+			Handler : General Controller
+			Key : 70 % Public , Else : Protected
+      
+      
+   API 1    :    Welome		 
+   API 2    :    Home		 
+   API 3    :    About
+   API 4    :    Developer
+   API 5    :    TMC	 
+   API 6    :    Facility
+   API 7    :    Use
+   API 8    :    Guide
+   
+   
+   
+		Source : User Route
+		Handler : User Controller
+		Key : 80 % Public , Else : Protected
+    
+    
+API 9    :    
+	Name   :   Create Account
+	Required   :    Valid email and  Valid password
+	Result   :     user name , user id , password
+*  :  You can not create deleted account
+*  :  if you try you get " Deleted Account con not create "
+*  :  You can delete your account at any time in future
+*  :  You can not restore at time of created account
+*  :  if you try you get " 400 Bad Request "
+*  :  You can restore your account at any time in future
+*  :  You can use one email at only once to create a acount
+*  :  if you try again you get message " your account already               
+        created using this email " 
+* : password must contain atleast 8 character One lower case One 	Upper case One number One Special Character"
+*  :  Fruther you can update your account 
+*  :  You can store all details of your life
+
+
+API 10    :    
+	Name   :  login with user name & password
+	Required   :  user validation from middlewear
+	Result   :  token in res body and res hadder (x-api-key)
+*  :  You can login multiple times and generate token
+*  :  You can not use userId for login you have to use username & 	password
+
+
+API 11    :    
+	Name   :  login with user ID  & password
+	Required   :   user validation from middlewear
+	Result   :   token in res body and res hadder (x-api-key)
+*  :  You can login only once and generate only one token 
+*  :  if you try again you get message " Already login Not allowed"
+*  :  You can not use username for login you have to use userId & 	password
+
+
+API 12    :    
+	Name   :  Update account with user name
+	Required   :   user validation , Authentication , authorization , 					from middlewear
+	Result   :   updated account detail
+*  :  You cant not use user id for update
+*  :  You have to use user name & password 
+*  :  You can update from any filter  
+*  :  filter given in query params
+*  :  if you select filter in query params than you have to give their 	value also ( can not leave blank )
+*  :  you can not delete or restore in this API
+
+
+API 13    :    
+	Name   :  update account with user ID
+	Required   :   user validation , Authentication , authorization , 					from middlewear
+	Result   :   updated account detail
+*  :  You can update from any filter  
+*  :  filter given in query params
+*  :  if you select filter in query params than you have to give their 	value also ( can not leave blank )
+*  :  You cant not use username for update
+*  :  You have to use user ID & password 
+*  :  you can not delete or restore in this API
+
+
+API 14    :    
+	Name   :  Account restore or delete with only user ID
+	Required   :   user validation , Authentication , authorization , 					from middlewear
+	Result   :   "account deleted"  or  "account restore"
+*  :  You have to pass user Id
+*  :  you have to pass "choice" in query
+*  :  you have to pass right choice "restore" OR "delete"
+*  :  You can not pass anything
+
+
+API 15    :    
+	Name   :  Account restore or delete with only user name
+	Required   :   user validation , Authentication , authorization , 					from middlewear
+	Result   :   "account deleted"  or  "account restore"
+*  :  You have to pass user name
+*  :  you have to pass "choice" in query
+*  :  you have to pass right choice "restore" OR "delete"
+*  :  You can not pass anything
+
+
+API 16    :    
+	Name   :  Account restore or delete with only user name
+	Required   :   user validation , Authentication , authorization , 					from middlewear
+	Result   :   "account deleted"  or  "account restore"
+*  :  You have to pass user name
+*  :  you have to pass "choice" in query
+*  :  you have to pass right choice "restore" OR "delete"
+*  :  You can not pass anything
+
+
+API 17    :    
+	Name   :  get Account data only user name and password
+	Required   :   user validation , Authentication , 					from middlewear
+	Result   :   account data
+*  :  You have to pass user name
+*  :  you have to pass filter option in query
+*  :  You can not pass unrelevent data you get nothing
+
+
+
+
+			Source : temp Route
+			Handler : temp Controller
+			Key : 50 % Public , Else : Protected
+      
+      
+API 18    :    
+	Name   :  get temperature limited city
+	Required   :   NA
+	Result   :   city temperature
+  
+  
+API 19    :    
+	Name   :  get temperature by city name
+	Required   :   user validation
+	Result   :   city temperature
+* : you have to pass user name and password in req. body
+* : you have to pass city name in query with name 'q'
+
+
+			Source : mems Route
+			Handler : mems Controller
+			Key : 50 % Public , Else : Protected
+      
+      
+API 20    :    
+	Name   :  get mems id
+	Required   :   NA
+	Result   :   mems id
+  
+  
+API 21   :    
+	Name   :  get mems
+	Required   :   NA
+	Result   :   mems url
+* : you have to pass mems id in query with name 'memsId'
+* : you have to pass city name in query with name 'q'
+* : if you write anything than you have to pass in query with name 	"text0" or "text1"
+
+
+			Source : covin Route
+			Handler : covin Controller
+			Key : 70 % Public , Else : Protected
+      
+      
+API 22    :    
+	Name   :  get otp
+	Required   :   user validation , authentication
+	Result   :   otp receive mobile no. also get txn NO.
+* : you have to pass mobile no in request body
+
+
+API 23   :    
+	Name   :  verify otp
+	Required   :   user validation , authentication
+	Result   :   mems url
+* : you have to pass otp in request body
+
+
+API 24    :    
+	Name   :  get state list
+	Required   :   NA
+	Result   :   all state list with state code
+  
+  
+API 25   :    
+	Name   :  distick list
+	Required   :   NA
+	Result   :   get distick list with distick code
+* : you have to pass state code in route (URL) param
+
+
+API 26   :    
+	Name   :  get avilable slot by pincode
+	Required   :   NA
+	Result   :   list disply in response body
+* : you have to pass pincode in query
+* : you have to pass date in query
+
+
+API 27   :    
+	Name   :  get avilable slot by dictrict code
+	Required   :   NA
+	Result   :   list disply in response body
+* : you have to pass district_id in query
+* : you have to pass date in query
+
+
+API 28   :    
+	Name   :  get calander by pincode
+	Required   :   NA
+	Result   :   list disply in response body
+* : you have to pass pincode in query
+* : you have to pass date in query
+
+
+API 29   :    
+	Name   :  get calander by dictrict code
+	Required   :   NA
+	Result   :   list disply in response body
+* : you have to pass district_id in query
+* : you have to pass date in query
+
+
+API 30   :    
+	Name   :  get calander by center code
+	Required   :   NA
+	Result   :   list disply in response body
+* : you have to pass center_id in query
+* : you have to pass date in query
+
+
+
+			Source : player Route
+			Handler : player Controller
+			Key : 60 % Public , Else : Protected
+      
+      
+API 31    :    
+	Name   :  create player
+	Required   :   user validation , Authentication , authorization , 					from middlewear
+	Result   :   created player ID only
+  
+  
+API 32    :    
+	Name   :  get player details from id
+	Required   :   user validation 
+	Result   :    player details
+* : have to pass id in query
+
+
+API 33    :    
+	Name   :  get all player details 
+	Required   :   user validation 
+	Result   :  all  player details
+  
+  
+API 34    :    
+	Name   :  get player personal info 
+	Required   :   user validation 
+	Result   :   player details
+* : have to pass id in query
+
+
+API 35    :    
+	Name   :  get player score 
+	Required   :   user validation 
+	Result   :   player details
+* : have to pass id in query
+
+                                                                                                                         

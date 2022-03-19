@@ -15,6 +15,22 @@ Total Route file : 6
 Total MiddleWear file : 4                                                                                                                                  
 Total Model File : 3
 Total Handlar file : 6
+
+# One Global middlewear use for current page , date and time , store visiting clicks also
+
+# someWhere use router path to differenciate the login mode 
+
+# use JWT for login pass and also for validate
+
+# use Regex expression for password and emil matching
+
+# use http status code to show the errors
+
+# use axios to External calling
+
+# use error handler with try catch function to handle the internal and external errors
+
+   
                         
                                                                 List of APIs
                                                                                                           

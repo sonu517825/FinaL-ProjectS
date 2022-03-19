@@ -1,0 +1,50 @@
+# KEY POINTS #
+   THIS IS BUILD IN " TURBO CPP " Framework      
+   Developed by ***** ER. SONU VERMA *****
+
+# Some Hints #
+                                        w
+To move the snacke press :         A          S
+                                        z
+For Exit Press : X
+
+# Dovelopment Stages #
+
+Stage 1 : Build a boundary 
+Stage 2 : Set console into Row and Coloumn
+Stage 3 : Set Snacke and Food
+Stage 4 : Set possible criteirea for Food and Snacke
+Stage 5 : Set initial Score and range
+Stage 6 : Set body of Snacke
+Stage 7 : Take input from keyboard
+Stage 8 : Build a Path Track System to join body of snacke
+Stage 9 : Control the Speed of Snacke
+Stage 10 : Set Movement of Snacke
+Stage 11 : Set Snacke running route
+Stage 12 : Give Termination & Restart criteira
+Stage 13 : Display the Movement in console
+Stage 14 : Set game score validation
+Stage 15 : Final Test
+
+Sample Video of Project : https://drive.google.com/drive/folders/170FvCVkzUGQFExcNcMtNcjhl0tD0bED6?usp=sharing
+
+Warning : We could have to face some error if you try to test this code in different 
+          framework. This error may be regarding some module or some function not define.
+          
+Advice : Please Run this code in relevent framework.
+         It could be any version of " TURBO " framework  
+         
+Request : If anyone have any suggestion please contact me.
+
+       *****Contacts*****
+Mob : 6387713230
+Email : sonu9506517825@gmail.com
+Linked : https://www.linkedin.com/in/sonu-verma-64898520a/ 
+         
+         
+         
+                                                                                                                                  Developed By
+                                                                                                                                  ER. SONU VERMA
+                                                                                                                                  
+
+
